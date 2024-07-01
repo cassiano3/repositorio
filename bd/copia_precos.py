@@ -35,4 +35,5 @@ query = query.rstrip(',') + ';'
 db.query(query)
 db.db_commit()
 db.db_close()
+# comentario sinistro !!! wtf ????
 print(query)
